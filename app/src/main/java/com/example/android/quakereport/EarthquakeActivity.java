@@ -53,7 +53,7 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderCallb
     TextView emptyView;
     ProgressBar progressBar;
     /** URL for earthquake data from the USGS dataset */
-    private static final String USGS_REQUEST_URL = "http://earthquake.usgs.gov/fdsnws/event/1/query";
+    private static final String USGS_REQUEST_URL = "https://earthquake.usgs.gov/fdsnws/event/1/query";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
